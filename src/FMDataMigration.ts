@@ -3,7 +3,7 @@ const completionSpec: Fig.Spec = {
   description:
     "Migrates all record data from a source FileMaker Pro file to a copy of a clone file.\n\tCopyright (C) 2021 Claris International Inc. All rights reserved",
   parserDirectives: {
-    // Make options like '-src_path' to parse as a single option, not multiple flags smooshed together
+    // parse options like '-src_path' as a single option, not multiple flags smooshed together
     flagsArePosixNoncompliant: true,
   },
   options: [
